@@ -34,11 +34,11 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
-    </div>
+    </div> -->
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
@@ -85,7 +85,7 @@
                         <div class="card-header tracking-header">
                             <h3 class="text-center mb-0 text-light"><i class="fas fa-search-location me-2"></i> Enter Tracking Number</h3>
                         </div>
-                        <div class="card-body p-5">
+                        <div class="card-body p-md-5 p-3">
                             <div class="text-center mb-4">
                                 <i class="fas fa-box-open tracking-icon"></i>
                                 <p class="mb-4">Enter your tracking number below to check the status of your shipment. You can find your tracking number in your confirmation email or receipt.</p>
@@ -94,7 +94,7 @@
                              <form id="trackingForm" name="wpcargo-track-form" class="wpcargo-track-form">
                                 <div class="row g-2"> <!-- Changed to Bootstrap grid -->
                                     <div class="input-group"> <!-- Responsive columns -->
-                                        <input type="text" class="form-control tracking-input" placeholder="Enter your tracking number (e.g. PP123456789US)" required>
+                                        <input type="text" class="form-control tracking-input" placeholder="Enter tracking number (e.g. PP123456789US)" required>
                                         <button class="btn btn-track btn-primary" type="submit"><i class="fas fa-search"></i> Track</button>
                                     </div>
                                 </div>
