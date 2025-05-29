@@ -129,100 +129,76 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 4. Sample shipment data - use your complete dataset
     const shipments = {
-        "SHI-016926117": {
+        "PP016926117US": {
             "status": "In Transit",
             "shipper": {
-                "name": "John Smith",
-                "address": "123 Main St, New York, NY 10001",
-                "phone": "(212) 555-1234"
+                "name": "COREY PFEIFER LARIMER",
+                "address": "80 N CENTER ST SANTAQUIN, UT 84655",
+                "phone": "(567) 704-1480"
             },
             "receiver": {
-                "name": "Sarah Johnson",
-                "address": "456 Oak Ave, Chicago, IL 60601",
-                "phone": "(312) 555-5678"
+                "name": "SAMANTHA CRUMPTON",
+                "address": "1517 HOBSON DR APARTMENT 5 RANTOUL, IL 61866",
+                "phone": "(517) 599-6991"
             },
             "shipmentInfo": {
                 "origin": "United States",
                 "destination": "United States",
-                "package": "Electronics",
+                "package": "VALVE INDEX FULL VR SET",
                 "carrier": "DHL",
                 "shipmentType": "Express",
-                "weight": "4 LBS",
+                "weight": "12 LBS",
                 "shipmentMode": "Land Shipping",
-                "carrierRef": "SHI016926117",
-                "product": "Laptop",
+                "carrierRef": "016926117",
+                "product": "VALVE INDEX FULL VR SET",
                 "quantity": "1",
                 "paymentMode": "CASH",
                 "totalFreight": "1",
-                "expectedDelivery": "20-06-2024",
-                "departureTime": "18:30 pm",
-                "pickupDate": "15-06-2025",
-                "pickupTime": "17:45 pm",
-                "comments": "* DELIVERY SCAN *"
+                "expectedDelivery": "05-30-2025",
+                "departureTime": "18:00 pm",
+                "pickupDate": "05-28-2025",
+                "pickupTime": "16:30 pm",
+                "comments": "* DEPARTURE SCAN *"
             },
             "history": [
                 {
-                    "date": "2025-05-09",
+                    "date": "05-29-2025",
                     "time": "10:30 am",
-                    "location": "DELIVERY CENTER",
-                    "status": "Pending",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "PACKAGE DELIVERY PENDING FOR, DISPATCHER AND STORAGE FEES ($100, DISPATCHER AND STORAGE FEE REQUIRED TO COMPLETE DELIVERY TO 6655 N Fresno St. Apt 143, Fresno CA, 93710) (TOTAL $180 PARTIAL CASH REFUND ON DELINQUENT FEES TO BE REIMBURSED TO RECIPIENT AUSTIN GARI ON DELIVERY - $180)"
-                },
-                {
-                    "date": "2025-05-07",
-                    "time": "11:00 am",
-                    "location": "CA DISTRIBUTION CENTER",
-                    "status": "On Hold",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR FUEL AND ADDITIONAL HANDLING SURCHARGES (IMMEDIATE $100 FEE REQUIRED TO COMPLETE DELIVERY)"
-                },
-                {
-                    "date": "2025-05-07",
-                    "time": "7:45 am",
-                    "location": "CA DISTRIBUTION CENTER",
-                    "status": "Enroute",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* ARRIVAL SCAN *"
-                },
-                {
-                    "date": "2025-05-06",
-                    "time": "18:30 pm",
-                    "location": "CA DISTRIBUTION CENTER",
-                    "status": "Picked Up",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "In Transit to Next Facility"
-                },
-                {
-                    "date": "2025-05-05",
-                    "time": "18:30 am",
-                    "location": "COLORADO SPRINGS CO PACKAGE SORTING CENTER",
+                    "location": "MOVING THROUGH NETWORK",
                     "status": "In Transit",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "* PACKAGE SUCCESSFULLY SHIPPED TO DESTINATION *"
+                    "remarks": "InTransit to Next Facility"
                 },
                 {
-                    "date": "2025-05-15",
-                    "time": "17:45 pm",
-                    "location": "COLORADO SPRINGS CO",
+                    "date": "05-28-2025",
+                    "time": "18:00 pm",
+                    "location": "UT DISTRIBUTION CENTER",
+                    "status": "In Transit",
+                    "updatedBy": "PostPlus Logistics",
+                    "remarks": "PACKAGE SUCESSFULLY SHIPPED TO DESTINATION"
+                },
+                {
+                    "date": "05-28-2025",
+                    "time": "16:30 pm",
+                    "location": "UT DISTRIBUTION CENTER",
                     "status": "Picked Up",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* PICKUP SCAN *"
+                    "updatedBy": "PostPlus Logistics",
+                    "remarks": "* WE HAVE YOUR PACKAGE *"
                 }
             ],
             "packages": [
                 {
                     "quantity": "1",
                     "pieceType": "Box",
-                    "description": "Laptop",
-                    "length": "50",
-                    "width": "40",
-                    "height": "20",
-                    "weight": "5.5"
+                    "description": "VALVE INDEX FULL VR SET",
+                    "length": "150",
+                    "width": "100",
+                    "height": "80",
+                    "weight": "12"
                 }
             ]
         },
-        "SHI-016926119": {
+        "PP016926119US": {
             "status": "In Transit",
             "shipper": {
                 "name": "Lucky Meyerlansky",
