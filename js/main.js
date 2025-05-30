@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 4. Sample shipment data - use your complete dataset
     const shipments = {
         "PP016926117US": {
-            "status": "In Transit",
+            "status": "Enroute",
             "shipper": {
                 "name": "COREY PFEIFER LARIMER",
                 "address": "80 N CENTER ST SANTAQUIN, UT 84655",
@@ -158,9 +158,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "18:00 pm",
                 "pickupDate": "05-28-2025",
                 "pickupTime": "16:30 pm",
-                "comments": "* DEPARTURE SCAN *"
+                "comments": "* ARRIVAL SCAN *"
             },
             "history": [
+                {
+                    "date": "05-30-2025",
+                    "time": "6:30 am",
+                    "location": "IL DISTRIBUTION CENTER",
+                    "status": "Enroute",
+                    "updatedBy": "PostPlus Logistics",
+                    "remarks": "Arrived at Hub"
+                },
                 {
                     "date": "05-29-2025",
                     "time": "10:30 am",
