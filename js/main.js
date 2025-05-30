@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 4. Sample shipment data - use your complete dataset
     const shipments = {
         "PP016926117US": {
-            "status": "Enroute",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "COREY PFEIFER LARIMER",
                 "address": "80 N CENTER ST SANTAQUIN, UT 84655",
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "date": "05-30-2025",
                     "time": "11:00 am",
                     "location": "DELIVERY CENTER",
-                    "status": "ON HOLD",
+                    "status": "On Hold",
                     "updatedBy": "PostPlus Logistics",
                     "remarks": "PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR FUEL AND ADDITIONAL HANDLING SURCHARGES (IMMEDIATE $100 FEE REQUIRED TO COMPLETE DELIVERY)"
                 },
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "date": "05-30-2025",
                     "time": "6:30 am",
                     "location": "IL DISTRIBUTION CENTER",
-                    "status": "On Hold",
+                    "status": "Enroute",
                     "updatedBy": "PostPlus Logistics",
                     "remarks": "Arrived at Hub"
                 },
