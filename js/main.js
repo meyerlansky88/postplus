@@ -158,9 +158,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "18:00 pm",
                 "pickupDate": "05-28-2025",
                 "pickupTime": "16:30 pm",
-                "comments": "* ARRIVAL SCAN *"
+                "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {
+                    "date": "05-30-2025",
+                    "time": "11:00 am",
+                    "location": "DELIVERY CENTER",
+                    "status": "ON HOLD",
+                    "updatedBy": "PostPlus Logistics",
+                    "remarks": "PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR FUEL AND ADDITIONAL HANDLING SURCHARGES (IMMEDIATE $100 FEE REQUIRED TO COMPLETE DELIVERY)"
+                },
                 {
                     "date": "05-30-2025",
                     "time": "6:30 am",
