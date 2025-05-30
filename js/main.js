@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "date": "05-30-2025",
                     "time": "6:30 am",
                     "location": "IL DISTRIBUTION CENTER",
-                    "status": "Enroute",
+                    "status": "On Hold",
                     "updatedBy": "PostPlus Logistics",
                     "remarks": "Arrived at Hub"
                 },
