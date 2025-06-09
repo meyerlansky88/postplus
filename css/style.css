@@ -554,7 +554,6 @@
             }
         }
 
-
 /*** Contact ***/
 @media (min-width: 992px) {
     .container.contact-page {
@@ -636,3 +635,44 @@
 .footer .copyright a {
     color: var(--light);
 }
+
+/* Custom styles to complement Bootstrap */
+        .country-banner {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .flag-icon {
+            width: 34px;
+            height: 26px;
+        }
+        
+        .region-link {
+            transition: background-color 0.2s;
+        }
+        
+        .region-link:hover {
+            background-color: #f8f9fa;
+        }
+        
+        #countryModal .modal-dialog {
+            max-width: 300px;
+        }
+        
+        .btn-flag {
+            white-space: nowrap;
+        }
+        
+        @media (max-width: 767.98px) {
+            .banner-content {
+                margin-bottom: 8px;
+            }
+            
+            .btn-flag {
+                width: 100%;
+            }
+
+            .flag-icon {
+            width: 34px;
+            height: 26px;
+        }
+        }
